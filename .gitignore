@@ -1,0 +1,56 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore node modules
+/node_modules
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+/spec/tmp
+/data
+
+# Ignore other unneeded files.
+*.swp
+*~
+\#*\#
+.project
+.idea
+/*.iml
+.rufo
+
+.DS_Store
+bundler_stubs/
+.sass-cache/
+.rvmrc
+.ruby-gemset
+.rbenv-gemsets
+public/assets
+.powrc
+.rbenv-version
+update_all.sh
+coverage/
+.vagrant
+cookbooks/
+/nbproject/private/
+/config/compass.rb
+nbproject/project.properties
+nbproject/project.xml
+lib/tasks/jasmine.rake
+rails_best_practices_output.html
+brakeman.html
+knapsack_rspec_report.json
+config/aws/stack.json
+REVISION
+/list/
+dump.rdb
+rspec.xml
+lib/client.rb
+spec/examples.txt
+
+.env
+.env.local
+.env.*.local
+.rspec
+.byebug_history
+
