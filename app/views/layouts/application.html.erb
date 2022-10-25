@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>BfBack</title>
+    <title>Basic Forum Back-end API</title>
+
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,6 +13,7 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div id="swagger-ui"></div>
+    <%= javascript_include_tag "swagger_provider_api" %>
   </body>
 </html>
